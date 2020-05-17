@@ -30,7 +30,7 @@ R () {
 			echo -e -n "Enter youtube video link: "
 			read a
 			if [ ! -z $a ];then
-			cd /sdcard/youtube-download
+			cd /sdcard/youtube-video-download
 			youtube-dl $a
 			R
 			printf "\nSaved ( /sdcard/youtube-video-download )"
