@@ -3,7 +3,8 @@ R () {
 	cd $PREFIX/bin
 	if [ -e python ];then
 	#cd ~/Termux-Hack-2
-	cd /sdcard/Gith*
+	#cd /sdcard/Gith*
+	cd ~/youtube-video-download
 	echo -e "\033[0m"
 	python .random.py
 	fi
