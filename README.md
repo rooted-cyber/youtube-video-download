@@ -5,5 +5,5 @@
  $ git clone https://github.com/rooted-cyber/youtube-video-download
  $ cd youtube-video-download
  $ pip install -r requirement.txt
- $ bash download
+ $ bash download.sh
  </pre>
